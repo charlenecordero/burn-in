@@ -1,4 +1,4 @@
-# 🔥 Burn In
+# 🔥 Burn
 *An AI-powered mindfulness, journaling & habit-tracking assistant — the opposite of burnout.*
 
 ![Azure](https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoftazure)
