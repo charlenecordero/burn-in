@@ -10,7 +10,7 @@
 ## 🌟 Overview
 **Problem:** People struggle with consistency, motivation, and self-awareness when building healthier habits and practicing mindfulness. Existing tools are fragmented and rarely adapt to emotional states.  
 
-**Solution:** *Burn In* integrates mindfulness, journaling, and habit tracking into one AI companion. It adapts to user mood, provides supportive prompts, and surfaces insights to help users thrive instead of burn out.
+**Solution:** *Burn* integrates mindfulness, journaling, and habit tracking into one AI companion. It adapts to user mood, provides supportive prompts, and surfaces insights to help users thrive instead of burn out.
 
 ---
 
