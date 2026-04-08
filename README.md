@@ -1,48 +1,62 @@
-Project Title & Tagline  
-Burn In: An AI-powered mindfulness, journaling & habit-tracking assistant.
+# 🔥 Burn In
+*An AI-powered mindfulness, journaling & habit-tracking assistant — the opposite of burnout.*
 
-Overview
+![Azure](https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoftazure)
+![Hackathon](https://img.shields.io/badge/Hackathon-2026-green)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-Problem statement (fragmented tools, burnout).
+---
 
-Solution (Burn In integrates mindfulness, journaling, habits in one AI companion).
+## 🌟 Overview
+**Problem:** People struggle with consistency, motivation, and self-awareness when building healthier habits and practicing mindfulness. Existing tools are fragmented and rarely adapt to emotional states.  
 
-Features
+**Solution:** *Burn In* integrates mindfulness, journaling, and habit tracking into one AI companion. It adapts to user mood, provides supportive prompts, and surfaces insights to help users thrive instead of burn out.
 
-Mindfulness exercises (adaptive to mood).
+---
 
-Journaling prompts + sentiment insights.
+## ✨ Features
+- 🧘 **Mindfulness Support**: Guided breathing and grounding exercises, adaptive to stress level.  
+- 📓 **Journaling & Reflection**: Contextual prompts, free-form journaling, sentiment analysis, and insights.  
+- ✅ **Habit Tracking**: Define habits, track streaks, receive gentle encouragement.  
+- 📊 **Insights Dashboard**: Visualize mood trends, habit consistency, and journaling themes.  
 
-Habit tracking with streaks & encouragement.
+---
 
-Insights dashboard (trends, reflections).
+## 🏗️ Architecture
+![Architecture Diagram](docs/architecture.png)
 
-Architecture
+**Tech Stack**
+- **Frontend:** React (or your chosen framework)  
+- **Backend:** Azure Functions + Microsoft Agent Framework  
+- **Database:** Azure Cosmos DB  
+- **Search & Insights:** Azure AI Search  
+- **AI Services:** Azure Cognitive Services (Text Analytics, Speech)  
+- **Hosting:** Azure App Service  
 
-Diagram (link to /docs/architecture.png).
+---
 
-Tech stack (Azure Cosmos DB, Functions, App Service, AI Search, Cognitive Services).
+## 🚀 Setup Instructions
 
-Setup Instructions
+### Prerequisites
+- Azure account (Free Trial available)  
+- Node.js or Python  
+- Git installed  
 
-Clone repo
+### Steps
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/burn-in.git
+cd burn-in
 
-Install dependencies (pip install -r requirements.txt or npm install)
+# Install dependencies
+npm install
+# or
+pip install -r requirements.txt
 
-Run locally (python app.py or npm start)
+# Run locally
+npm start
+# or
+python app.py
 
-Deploy to Azure (az webapp up)
-
-Demo
-
-Live URL (App Service link).
-
-YouTube pitch video link.
-
-AI Tools Disclosure
-
-“This project used GitHub Copilot for code suggestions and Azure Cognitive Services for sentiment analysis.”
-
-License
-
-MIT License 
+# Deploy to Azure
+az webapp up --name burn-in-app --resource-group burn-in-rg
